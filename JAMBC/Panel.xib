@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="backgroundView" destination="6" id="20"/>
+                <outlet property="opsWindow" destination="bhl-3e-67o" id="8q3-By-hqE"/>
+                <outlet property="txtAnswer" destination="OIb-pf-odF" id="bWy-TH-yyZ"/>
+                <outlet property="txtInput" destination="ghs-EQ-v1y" id="H55-cX-vVZ"/>
+                <outlet property="window" destination="5" id="7"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="none" id="5" customClass="Panel">
+            <windowStyleMask key="styleMask" utility="YES" nonactivatingPanel="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" moveToActiveSpace="YES" ignoresCycle="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="162" y="101" width="280" height="180"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <view key="contentView" id="6" customClass="BackgroundView">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <splitView misplaced="YES" dividerStyle="thin" vertical="YES" id="nTA-kb-NqB" customClass="NSSplitViewColoured">
+                        <rect key="frame" x="0.0" y="8" width="280" height="160"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <customView id="eAH-xW-Ad0">
+                                <rect key="frame" x="0.0" y="0.0" width="210" height="160"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <box misplaced="YES" boxType="custom" title="Box" titlePosition="noTitle" id="hmW-7T-qdI">
+                                        <rect key="frame" x="4" y="3" width="207" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <view key="contentView" id="U7R-W2-Hrr">
+                                            <rect key="frame" x="1" y="1" width="205" height="146"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <scrollView misplaced="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="SzA-cJ-hhT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="205" height="146"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                                    <clipView key="contentView" drawsBackground="NO" id="67D-5a-um0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="205" height="146"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textView focusRingType="none" drawsBackground="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" verticallyResizable="YES" usesFontPanel="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" id="ghs-EQ-v1y" customClass="ExtendedTextView">
+                                                                <rect key="frame" x="0.0" y="0.0" width="205" height="146"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <size key="minSize" width="205" height="146"/>
+                                                                <size key="maxSize" width="463" height="10000000"/>
+                                                                <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </textView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </clipView>
+                                                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="w3d-Uf-n50">
+                                                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </scroller>
+                                                    <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="Zd6-bl-9LN">
+                                                        <rect key="frame" x="189" y="0.0" width="16" height="146"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </scroller>
+                                                </scrollView>
+                                            </subviews>
+                                        </view>
+                                        <color key="borderColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="fillColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </box>
+                                </subviews>
+                            </customView>
+                            <customView id="0CW-hv-9pw">
+                                <rect key="frame" x="211" y="0.0" width="69" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <box misplaced="YES" boxType="custom" title="Box" titlePosition="noTitle" id="lJZ-Rm-cSx">
+                                        <rect key="frame" x="0.0" y="3" width="65" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <view key="contentView" id="Cue-OL-2nY">
+                                            <rect key="frame" x="1" y="1" width="63" height="146"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <scrollView misplaced="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="fzQ-TA-J9E">
+                                                    <rect key="frame" x="0.0" y="0.0" width="63" height="146"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <clipView key="contentView" drawsBackground="NO" id="7i0-J0-QEV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="63" height="146"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textView focusRingType="none" editable="NO" drawsBackground="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" verticallyResizable="YES" baseWritingDirection="leftToRight" usesFontPanel="YES" usesRuler="YES" allowsNonContiguousLayout="YES" id="OIb-pf-odF" customClass="ExtendedTextView">
+                                                                <rect key="frame" x="0.0" y="0.0" width="63" height="146"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <size key="minSize" width="63" height="146"/>
+                                                                <size key="maxSize" width="10000000" height="10000000"/>
+                                                                <attributedString key="textStorage">
+                                                                    <fragment content=" ">
+                                                                        <attributes>
+                                                                            <font key="NSFont" metaFont="smallSystem"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
+                                                                <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </textView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </clipView>
+                                                    <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="60p-Da-M8p">
+                                                        <rect key="frame" x="0.0" y="130" width="63" height="16"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </scroller>
+                                                    <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="MWL-d9-AE9">
+                                                        <rect key="frame" x="47" y="0.0" width="16" height="146"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </scroller>
+                                                </scrollView>
+                                            </subviews>
+                                        </view>
+                                        <color key="borderColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="fillColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </box>
+                                </subviews>
+                            </customView>
+                        </subviews>
+                        <holdingPriorities>
+                            <real value="250"/>
+                            <real value="250"/>
+                        </holdingPriorities>
+                    </splitView>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="8"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="174"/>
+        </window>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="bhl-3e-67o" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="272" y="172" width="608" height="536"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" misplaced="YES" id="boK-hu-0CJ">
+                <rect key="frame" x="0.0" y="0.0" width="608" height="536"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" id="MaT-Ud-se0">
+                        <rect key="frame" x="3" y="7" width="602" height="521"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" id="Fvj-CJ-6ET">
+                            <font key="font" size="13" name="CourierNewPSMT"/>
+                            <string key="title">Operator            Function              Description
++                   add                   addition and unary positive
+- or −              subtract and negate   subtraction and negation
+* or ×              multiply              multiplication
+/ or ÷              divide                division
+%                   mod or percent        modulus or a percentage of a value
+!                   factorial             factorial
+!!                  factorial2            double factorial
+^ or **             pow                   exponentiation
+º or ° or ∘         dtor                  converts the value to radians
+√                   sqrt                  square root
+∛                   cuberoot              cubic root
+&amp;                   and                   bitwise and
+|                   or                    bitwise or
+v or ⊕              xor                   bitwise xor
+~                   not                   bitwise not
+&lt;&lt;                  lshift                bitwise left shift
+&gt;&gt;                  rshift                bitwise right shift
+== or =             l_eq                  equal
+!= or ≠             l_neq                 not equal
+&lt;                   l_lt                  less than
+&gt;                   l_gt                  greater than
+&lt;= or =&lt; or ≤ or ≯  l_ltoe                less than or equal
+&gt;= or =&gt; or ≥ or ≮  l_gtoe                greater than or equal
+&amp;&amp;                  l_and                 logical and
+||                  l_or                  logical or
+! or ¬              l_not                 logical not</string>
+                            <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="139" y="639"/>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="bX5-UY-mg0"/>
+    </objects>
+</document>

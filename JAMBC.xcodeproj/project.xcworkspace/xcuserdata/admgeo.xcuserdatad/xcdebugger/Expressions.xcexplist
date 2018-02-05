@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[PanelController awakeFromNib]:PanelController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtAnswer.defaultParagraphStyle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[StatusItemView mouseUp:]:StatusItemView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.action">
+            </PersistentString>
+            <PersistentString
+               value = "self.target">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ApplicationDelegate showOps:]:ApplicationDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.panelController window].windowController">
+            </PersistentString>
+            <PersistentString
+               value = "self.panelController">
+            </PersistentString>
+            <PersistentString
+               value = "[self.panelController window]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[StatusItemView showHelp:]:StatusItemView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainWindow.windowController">
+            </PersistentString>
+            <PersistentString
+               value = "[[NSApplication sharedApplication] windows]">
+            </PersistentString>
+            <PersistentString
+               value = "[[NSApplication sharedApplication] delegate]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ExtendedTextView initWithCoder:]:ExtendedTextView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.defaultParagraphStyle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[StatusItemView(RightClickStatusItemView) mouseUp:]:StatusItemView+RightClickStatusItemView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.target">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DDMathTokenizer _parseOperatorWithError:]:DDMathTokenizer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.operatorSet hasOperatorWithPrefix:@&quot;**&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.operatorSet">
+            </PersistentString>
+            <PersistentString
+               value = "[self.operatorSet hasOperatorWithPrefix:tmp]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PanelController openPanel]:PanelController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[currentEvent type]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ApplicationDelegate togglePanel:]:ApplicationDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PanelController openOps]:PanelController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_opsWindow">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[StatusItemView(RightClickStatusItemView) rightMouseUp:]:StatusItemView+RightClickStatusItemView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.action">
+            </PersistentString>
+            <PersistentString
+               value = "self.target">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
