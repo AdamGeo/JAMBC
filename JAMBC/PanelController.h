@@ -1,6 +1,5 @@
 #import "BackgroundView.h"
 #import "StatusItemView.h"
-#import "ExtendedTextView.h"
 
 @class PanelController;
 
@@ -18,15 +17,15 @@
 {
     BOOL _hasActivePanel;
     __unsafe_unretained BackgroundView *_backgroundView;
-    __unsafe_unretained ExtendedTextView *_txtInput;
-    __unsafe_unretained ExtendedTextView *_txtAnswer;
+    __unsafe_unretained NSTextView *_txtInput;
+    __unsafe_unretained NSTextView *_txtAnswer;
     __unsafe_unretained NSPanel *_opsWindow;
     __unsafe_unretained id<PanelControllerDelegate> _delegate;
 }
 
 @property (nonatomic, unsafe_unretained) IBOutlet BackgroundView *backgroundView;
-@property (nonatomic, unsafe_unretained) IBOutlet ExtendedTextView *txtInput;
-@property (nonatomic, unsafe_unretained) IBOutlet ExtendedTextView *txtAnswer;
+@property (nonatomic, unsafe_unretained) IBOutlet NSTextView *txtInput;
+@property (nonatomic, unsafe_unretained) IBOutlet NSTextView *txtAnswer;
 @property (nonatomic, unsafe_unretained) IBOutlet NSPanel *opsWindow;
 
 

@@ -50,14 +50,14 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="205" height="146"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
-                                                            <textView focusRingType="none" drawsBackground="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" verticallyResizable="YES" usesFontPanel="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" id="ghs-EQ-v1y" customClass="ExtendedTextView">
+                                                            <textView focusRingType="none" drawsBackground="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" verticallyResizable="YES" baseWritingDirection="leftToRight" usesFontPanel="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" id="ghs-EQ-v1y">
                                                                 <rect key="frame" x="0.0" y="0.0" width="205" height="146"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                 <size key="minSize" width="205" height="146"/>
-                                                                <size key="maxSize" width="463" height="10000000"/>
-                                                                <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <size key="maxSize" width="10000000" height="10000000"/>
+                                                                <color key="insertionPointColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
                                                             </textView>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -96,21 +96,14 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="63" height="146"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
-                                                            <textView focusRingType="none" editable="NO" drawsBackground="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" verticallyResizable="YES" baseWritingDirection="leftToRight" usesFontPanel="YES" usesRuler="YES" allowsNonContiguousLayout="YES" id="OIb-pf-odF" customClass="ExtendedTextView">
+                                                            <textView focusRingType="none" editable="NO" drawsBackground="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" verticallyResizable="YES" baseWritingDirection="leftToRight" usesFontPanel="YES" usesRuler="YES" allowsNonContiguousLayout="YES" id="OIb-pf-odF">
                                                                 <rect key="frame" x="0.0" y="0.0" width="63" height="146"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                 <size key="minSize" width="63" height="146"/>
                                                                 <size key="maxSize" width="10000000" height="10000000"/>
-                                                                <attributedString key="textStorage">
-                                                                    <fragment content=" ">
-                                                                        <attributes>
-                                                                            <font key="NSFont" metaFont="smallSystem"/>
-                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                </attributedString>
-                                                                <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="insertionPointColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
                                                             </textView>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

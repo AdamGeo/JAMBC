@@ -29,17 +29,16 @@
 		0F06695F201ED97D00D5B418 /* DDEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F066945201ED97D00D5B418 /* DDEnumerator.m */; };
 		0F066960201ED97D00D5B418 /* DDMathOperatorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F066947201ED97D00D5B418 /* DDMathOperatorSet.m */; };
 		0F066961201ED97D00D5B418 /* DDMathTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06694A201ED97D00D5B418 /* DDMathTokenizer.m */; };
-		0F066964201EF83500D5B418 /* ExtendedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F066963201EF83500D5B418 /* ExtendedTextView.m */; };
 		0F1248C32023E09700C51766 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1248BF2023E09700C51766 /* Status@2x.png */; };
 		0F1248C42023E09700C51766 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1248C02023E09700C51766 /* StatusHighlighted@2x.png */; };
 		0F1248C52023E09700C51766 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1248C12023E09700C51766 /* StatusHighlighted.png */; };
 		0F1248C62023E09700C51766 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1248C22023E09700C51766 /* Status.png */; };
 		0F3F676B202809B600D7B311 /* NSSplitViewColoured.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F676A202809B600D7B311 /* NSSplitViewColoured.m */; };
 		0F8EF6BB202458C700AEBAD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EF6BA202458C700AEBAD1 /* Images.xcassets */; };
+		0F95398420356125003DC83F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F95398320356125003DC83F /* MainMenu.xib */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
 		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
-		DD4F7C1F13C30F9F00825C6E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C1D13C30F9F00825C6E /* MainMenu.xib */; };
 		DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3713C317A500825C6E /* MenubarController.m */; };
 		DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3B13C3180800825C6E /* StatusItemView.m */; };
 		DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3E13C318D600825C6E /* PanelController.m */; };
@@ -96,8 +95,6 @@
 		0F066949201ED97D00D5B418 /* DDExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDExpression.h; sourceTree = "<group>"; };
 		0F06694A201ED97D00D5B418 /* DDMathTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathTokenizer.m; sourceTree = "<group>"; };
 		0F06694B201ED97D00D5B418 /* DDMathOperatorTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathOperatorTypes.h; sourceTree = "<group>"; };
-		0F066962201EF83500D5B418 /* ExtendedTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtendedTextView.h; sourceTree = "<group>"; };
-		0F066963201EF83500D5B418 /* ExtendedTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendedTextView.m; sourceTree = "<group>"; };
 		0F1248BF2023E09700C51766 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "JAMBC/images/Status@2x.png"; sourceTree = "<group>"; };
 		0F1248C02023E09700C51766 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "JAMBC/images/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 		0F1248C12023E09700C51766 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusHighlighted.png; path = JAMBC/images/StatusHighlighted.png; sourceTree = "<group>"; };
@@ -105,6 +102,7 @@
 		0F3F6769202809B600D7B311 /* NSSplitViewColoured.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSplitViewColoured.h; sourceTree = "<group>"; };
 		0F3F676A202809B600D7B311 /* NSSplitViewColoured.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSplitViewColoured.m; sourceTree = "<group>"; };
 		0F8EF6BA202458C700AEBAD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JAMBC/Images.xcassets; sourceTree = "<group>"; };
+		0F95398320356125003DC83F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = JAMBC/MainMenu.xib; sourceTree = "<group>"; };
 		DD4F7C0413C30F9F00825C6E /* JAMBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAMBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -115,7 +113,6 @@
 		DD4F7C1613C30F9F00825C6E /* JAMBC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAMBC-Prefix.pch"; sourceTree = "<group>"; };
 		DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
 		DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
-		DD4F7C1E13C30F9F00825C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DD4F7C3613C317A500825C6E /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
 		DD4F7C3713C317A500825C6E /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
 		DD4F7C3A13C3180800825C6E /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
@@ -283,7 +280,7 @@
 		DD4F7C2913C3124300825C6E /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
-				DD4F7C1D13C30F9F00825C6E /* MainMenu.xib */,
+				0F95398320356125003DC83F /* MainMenu.xib */,
 				DD4F7C4013C31B4A00825C6E /* Panel.xib */,
 			);
 			name = XIBs;
@@ -298,8 +295,6 @@
 				DD4F7C3B13C3180800825C6E /* StatusItemView.m */,
 				DD4F7C4513C3208500825C6E /* BackgroundView.h */,
 				DD4F7C4613C3208500825C6E /* BackgroundView.m */,
-				0F066962201EF83500D5B418 /* ExtendedTextView.h */,
-				0F066963201EF83500D5B418 /* ExtendedTextView.m */,
 				0F3F6769202809B600D7B311 /* NSSplitViewColoured.h */,
 				0F3F676A202809B600D7B311 /* NSSplitViewColoured.m */,
 			);
@@ -356,12 +351,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4F7C1F13C30F9F00825C6E /* MainMenu.xib in Resources */,
 				DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */,
 				0F8EF6BB202458C700AEBAD1 /* Images.xcassets in Resources */,
 				0F1248C52023E09700C51766 /* StatusHighlighted.png in Resources */,
 				0F1248C62023E09700C51766 /* Status.png in Resources */,
 				0F1248C42023E09700C51766 /* StatusHighlighted@2x.png in Resources */,
+				0F95398420356125003DC83F /* MainMenu.xib in Resources */,
 				0F1248C32023E09700C51766 /* Status@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,7 +387,6 @@
 				DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */,
 				0F06694F201ED97D00D5B418 /* _DDNumberExpression.m in Sources */,
 				0F06695F201ED97D00D5B418 /* DDEnumerator.m in Sources */,
-				0F066964201EF83500D5B418 /* ExtendedTextView.m in Sources */,
 				0F06695B201ED97D00D5B418 /* DDMathEvaluator.m in Sources */,
 				0F066959201ED97D00D5B418 /* DDMathToken.m in Sources */,
 				0F066952201ED97D00D5B418 /* DDMathOperatorTypes.m in Sources */,
@@ -408,18 +402,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DD4F7C1D13C30F9F00825C6E /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD4F7C1E13C30F9F00825C6E /* en */,
-			);
-			name = MainMenu.xib;
-			path = JAMBC;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD4F7C2013C30F9F00825C6E /* Debug */ = {

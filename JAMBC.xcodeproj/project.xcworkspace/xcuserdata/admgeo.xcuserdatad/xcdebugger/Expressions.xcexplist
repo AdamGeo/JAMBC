@@ -3,10 +3,13 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[PanelController awakeFromNib]:PanelController.m">
+         contextName = "-[StatusItemView(RightClickStatusItemView) rightMouseUp:]:StatusItemView+RightClickStatusItemView.m">
          <PersistentStrings>
             <PersistentString
-               value = "self.txtAnswer.defaultParagraphStyle">
+               value = "self.action">
+            </PersistentString>
+            <PersistentString
+               value = "self.target">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -25,13 +28,13 @@
          contextName = "-[ApplicationDelegate showOps:]:ApplicationDelegate.m">
          <PersistentStrings>
             <PersistentString
-               value = "[self.panelController window].windowController">
+               value = "[self.panelController window]">
             </PersistentString>
             <PersistentString
                value = "self.panelController">
             </PersistentString>
             <PersistentString
-               value = "[self.panelController window]">
+               value = "[self.panelController window].windowController">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -40,6 +43,9 @@
          <PersistentStrings>
             <PersistentString
                value = "mainWindow.windowController">
+            </PersistentString>
+            <PersistentString
+               value = "self.target">
             </PersistentString>
             <PersistentString
                value = "[[NSApplication sharedApplication] windows]">
@@ -69,13 +75,13 @@
          contextName = "-[DDMathTokenizer _parseOperatorWithError:]:DDMathTokenizer.m">
          <PersistentStrings>
             <PersistentString
-               value = "[self.operatorSet hasOperatorWithPrefix:@&quot;**&quot;]">
-            </PersistentString>
-            <PersistentString
                value = "self.operatorSet">
             </PersistentString>
             <PersistentString
                value = "[self.operatorSet hasOperatorWithPrefix:tmp]">
+            </PersistentString>
+            <PersistentString
+               value = "[self.operatorSet hasOperatorWithPrefix:@&quot;**&quot;]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -99,13 +105,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[StatusItemView(RightClickStatusItemView) rightMouseUp:]:StatusItemView+RightClickStatusItemView.m">
+         contextName = "-[PanelController awakeFromNib]:PanelController.m">
          <PersistentStrings>
             <PersistentString
-               value = "self.action">
-            </PersistentString>
-            <PersistentString
-               value = "self.target">
+               value = "self.txtAnswer.defaultParagraphStyle">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

@@ -50,7 +50,10 @@
     [panel setOpaque:NO];
     [panel setBackgroundColor:[NSColor clearColor]];
     self.txtInput.delegate = self;
+    [self resetSillyTextviewFont];
     [self.txtInput setFocusRingType:NSFocusRingTypeNone];
+    [[self.txtInput textContainer] setWidthTracksTextView:NO];
+    [[self.txtInput textContainer] setContainerSize:CGSizeMake(FLT_MAX, FLT_MAX)];
     _opsWindow.titlebarAppearsTransparent = YES;
     _opsWindow.backgroundColor = [NSColor blackColor];
 }
@@ -83,6 +86,21 @@
         }
     }
     [self.txtAnswer setString:[result stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]];
+    [self resetSillyTextviewFont];
+}
+
+-(void)resetSillyTextviewFont {
+    [self.txtAnswer setFont:[NSFont fontWithName:@"Courier New" size:20]] ;
+    [self.txtInput setFont:[NSFont fontWithName:@"Courier New" size:20]] ;
+    [self.txtAnswer setTextColor:[NSColor whiteColor]];
+    [self.txtInput setTextColor:[NSColor whiteColor]];
+    
+    NSMutableParagraphStyle *paratxtAnswer = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    [paratxtAnswer setLineBreakMode:NSLineBreakByTruncatingTail];
+    [self.txtAnswer setDefaultParagraphStyle:paratxtAnswer];
+    NSMutableParagraphStyle *paratxtInput = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    [paratxtInput setLineBreakMode:NSLineBreakByTruncatingHead]; // NSLineBreakByTruncatingHead
+    [self.txtInput setDefaultParagraphStyle:paratxtInput];
 }
 
 - (BOOL)control:(NSControl*)control textView:(NSTextView*)textView doCommandBySelector:(SEL)commandSelector
@@ -211,6 +229,8 @@
     [[panel animator] setFrame:panelRect display:YES];
     [[panel animator] setAlphaValue:1];
     [NSAnimationContext endGrouping];
+    [[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
+    [self.window orderFrontRegardless];
 }
 
 - (void)closePanel
